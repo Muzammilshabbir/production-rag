@@ -1,0 +1,11 @@
+Company API Security Policy
+
+All API requests must use authentication.
+
+JWT tokens are used to authenticate API requests.
+
+Access tokens expire after 60 minutes.
+
+Clients must include the access token in the Authorization header.
+
+The Authorization header uses the Bearer scheme.

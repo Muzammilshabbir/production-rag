@@ -1,0 +1,17 @@
+services:
+
+  api:
+    build: .
+    container_name: production-rag-api
+
+    ports:
+      - "8000:8000"
+
+    volumes:
+      - chroma_data:/app/data/chroma
+
+    env_file:
+      - .env
+
+volumes:
+  chroma_data:

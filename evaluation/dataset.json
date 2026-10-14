@@ -1,0 +1,27 @@
+[
+  {
+    "question": "How long do access tokens last?",
+    "expected_text": "Access tokens expire after 60 minutes.",
+    "answerable": true
+  },
+  {
+    "question": "What authentication scheme is used?",
+    "expected_text": "The Authorization header uses the Bearer scheme.",
+    "answerable": true
+  },
+  {
+    "question": "Do API requests require authentication?",
+    "expected_text": "All API requests must use authentication.",
+    "answerable": true
+  },
+  {
+    "question": "How do I reset my company laptop password?",
+    "expected_text": null,
+    "answerable": false
+  },
+  {
+    "question": "What is the company's vacation policy?",
+    "expected_text": null,
+    "answerable": false
+  }
+]

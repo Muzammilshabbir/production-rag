@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+chromadb
+ollama
+python-dotenv
+pydantic
+rank-bm25
